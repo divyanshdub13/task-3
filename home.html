@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E Commerce product</title>
+<style>
+    body{
+        height: 1000px;
+        
+        border: 3px solid rgb(195, 6, 6);
+        background: url(ONLINE\ SHOP.png);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    *{
+        font-style: italic;
+        text-decoration: none;
+        
+    }
+    
+    .navbar{
+        color: rgb(183, 255, 0);
+        background: rgb(60, 150, 186);
+        padding-right: 5px; padding-left: 5px;
+    
+    }
+    .navdiv{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .logo{
+        font-size: 30px; font-weight: 600; color: var(white);
+        
+    }
+    
+        
+    
+    li{
+        list-style: none; display: inline-block;
+    }
+    li a{
+        color:black;  padding: 15px;
+        overflow: hidden;
+        margin-bottom: 100px;
+        margin-right: 40px;
+        transition: .3s;
+        font-size: 20px; font-weight: bold; 
+        
+    }
+    ul li{
+      display: inline-block;
+      position: relative;
+    }
+  
+    
+    ul li a:hover{
+        color: rgb(140, 255, 0);
+    }
+    ul li ul.dropdown {
+      display:block;
+    }
+    ul li ul.dropdown{
+       
+    
+      
+      position: absolute;
+      z-index: 999;
+      display: none;
+    }
+    ul li:hover ul.dropdown {
+      display: block;
+    }
+    .content h2 span{
+     color: #e82a2a;
+     text-align: center;
+     font-size: 40px;
+
+     
+    }
+    .content h4{
+        font-size: 2em;
+    }
+    .btn-group a{
+        color: #fff701;
+        text-decoration: none;margin: 0px;
+        padding: 10px 40px;
+        background: #92f703;
+        border-radius: 10px;
+        border: 2px solid #e82a2a;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    .content p{
+        padding: 10px 0 40px 0;
+    }
+    .btn-group a:hover:nth-child(1){
+        color:#432ae8;
+        background:transparent;
+
+    }
+    .btn-group a:nth-child(2){
+        color: #2a4ae8;
+        background: transparent;
+        margin-left: 30px;
+        padding: 10px 30px;
+    }
+    .btn-group a:hover:nth-child(2){
+        color: #fff;
+        background: #3d2ae8;
+    }
+    .span{
+      
+
+    }
+
+    
+    
+    
+</style>
+</head>
+<body>
+        <div class="container">
+        <div class="product">
+            <h1>ORDERS</h1>
+
+            <div class="gallery">
+                <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+           > <div class="details">
+                
+                <h2>SELECT THE ORDER FOR DETAILS</h2>
+                <h3>COMPLETED</h3>
+                <p></p>
+                <form>
+                    <div class="size-select">
+                        <p></p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>1.BAGGY JEANS</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>WOMEN TOP</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>CHIKENKARI SAREE</span>
+                        </label>
+                        <label for="x-large">
+                            <input type="radio" name="size" id="x-large">
+                            <span>WHITE T SHIRT</span>
+                        </label>
+                        <label for="xx-large">
+                            <input type="radio" name="size" id="xx-large">
+                            <span>ROLEX WATCH</span>
+                        </label>
+                    </div>
+
+                    <div class="color-select">
+                        <p>PENDING</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="color-1">TOY</span>
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green">
+                            <span class="color-2">SUNGLASSES</span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue">
+                            <span class="color-3">LINGERIE</span>
+                        </label>
+                        <label for="pink">
+                            <input type="radio" name="color" id="pink">
+                            <span class="color-4">SHOE</span>
+                        </label>
+                    </div>
+
+                    <div class="quantity-select">
+                        <p></p>
+                        <input type="number" value="1" min="0">
+                    </div>
+                    
+
+                    <button>Buy Again</button>
+                    <button>Add to Cart</button
+
+                    <div class="container">
+                        <div class="product">
+                            <h1>ABOUT US</h1>
+                
+                            <div class="gallery">
+                                <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                                <div class="controls">
+                                    <span class="btn active"></span>
+                                    <span class="btn"></span>
+                                    <span class="btn"></span>
+                                    <p>WE ARE TOP QUALITY PROVIDERS OF GOOD QUALITY AND VALUE PRODUCTS AT YOUR DOORSTEP</p>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="product">
+                                    <h1>MANAGE ACCOUNT</h1>
+                        
+                                    <div class="gallery">
+                                        <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                                        <div class="controls">
+                                            <span class="btn active"></span>
+                                            <span class="btn"></span>
+                                            <span class="btn"></span>
+                                            <p>LOGOUT</p>
+                                            <P>CHANGE NUMBER</P>
+                                        </div>
+                                    </div>
+
+                                    <div class="container">
+                                        <div class="product">
+                                            <h1>PRIVACY</h1>
+                                
+                                            <div class="gallery">
+                                                <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                                                <div class="controls">
+                                                    <span class="btn active"></span>
+                                                    <span class="btn"></span>
+                                                    <span class="btn"></span>
+                                                    <P>CHANGE PASSWORD</P>
+                                                </div>
+                                            </div>
+
+                                            <div class="container">
+                                                <div class="product">
+                                                    <h1>SETTINGS</h1>
+                                        
+                                                    <div class="gallery">
+                                                        <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                                                        <div class="controls">
+                                                            <span class="btn active"></span>
+                                                            <span class="btn"></span>
+                                                            <span class="btn"></span>
+                                                            <P>SELECT GENDER</P>
+                                                            <P>SELECT SIZES</P>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="container">
+                                                        <div class="product">
+                                                            <h1>COUPENS</h1>
+                                                
+                                                            <div class="gallery">
+                                                                <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                                                                <div class="controls">
+                                                                    <span class="btn active"></span>
+                                                                    <span class="btn"></span>
+                                                                    <span class="btn"></span>
+                                                                    <P>DIVYANSH100</P>
+                                                                    <P>FIRSTBUY</P>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="container">
+                                                                <div class="product">
+                                                                    <h1>HELP CENTRE</h1>
+                                                        
+                                                                    <div class="gallery">
+                                                                        <img src="Screenshot 2024-02-20 105709.png" id="productImg" alt="">
+                                                                        <div class="controls">
+                                                                            <span class="btn active"></span>
+                                                                            <span class="btn"></span>
+                                                                            <span class="btn"></span>
+                                                                            <P>CALL US</P>
+                                                                            <p>MAIL US</p>
+                                                                        </div>
+                                                                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
